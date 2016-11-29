@@ -1,0 +1,49 @@
+<style>
+* {
+	box-sizing: border-box;
+}
+h1 {
+	margin-top: 15px;
+}
+p{
+	border: 1px solid black
+	background-color:green;
+	width:90%;
+	height:150px;
+	margin-right:auto;
+	margin-left:auto;
+	font-family:Helvetica;
+	color:black;
+
+}
+
+.row {
+	width :100%;
+}
+/*desktop view*/
+
+@media (min-width: 992px) {
+	.col-lg-1 ,.col-lg-2 ,.col-lg-3 
+	{float : right;
+}
+.col-lg-1{ width: 33%; }
+.col-lg-2{width:50%;}
+.col-lg-3{width: 100%;}
+/**for tablet view **/
+@media (min-width: 786px) and (max-width: 991px){
+	.col-med-1,.col-med-2,.col-med-3{
+		float: right ;
+	}
+	.col-med-1 {width:33%;}
+	.col-med-2 {width: 50%;}
+	.col-med-3 {wwidth:100%;}
+}
+@media (max-width: 767px){
+	.col-sm-1 ,.col-sm-2,.col-sm-3{
+		float:right;
+	}
+	.col-sm-1{width:33%;}
+	.col-sm-2{width: 50%;}
+	.col-sm-3{width: 100%;}
+}
+</style>
